@@ -1,0 +1,9 @@
+# 依赖清单
+# 本地安装： pip install -r requirements.txt
+streamlit>=1.36,<2.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# 向量库 + 本地 embedding 模型
+chromadb>=0.5.0,<0.7.0
+sentence-transformers>=2.7.0,<4.0.0
